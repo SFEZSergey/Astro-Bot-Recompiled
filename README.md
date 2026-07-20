@@ -1,4 +1,4 @@
-# Astro Bot PC
+# Astro Bot Recompiled
 
 An unofficial research project aiming to run **Astro Bot** on PC through static
 recompilation and a compatible runtime.
