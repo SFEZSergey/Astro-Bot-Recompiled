@@ -12,7 +12,7 @@ a complete or playable version of the game.
 - The project uses parts of the
   [SharpEmu](https://github.com/par274/sharpemu) source code.
 - **Dreaming Sarah has been successfully launched on PC** and is being kept as
-  a regression test for the recompiler.
+  a test for the recompiler.
 - Astro Bot development is currently focused on loading and processing
   graphics, textures, and other game resources.
 
