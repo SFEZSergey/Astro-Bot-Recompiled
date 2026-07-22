@@ -11,13 +11,18 @@ a complete or playable version of the game.
 - The current development base is **SharpEmu 0.0.2-beta.4**.
 - The project uses parts of the
   [SharpEmu](https://github.com/par274/sharpemu) source code.
-- **Dreaming Sarah has been successfully launched on PC** and is being kept as
-  a test for the recompiler.
-- Astro Bot development is currently focused on loading and processing
-  graphics, textures, and other game resources.
+- **Dreaming Sarah has been successfully launched on PC through a locally
+  modified SharpEmu build.** This result validates the emulator-side changes
+  and is being preserved as a reference trace.
+- The separate static recompiler implementation has now started at roadmap
+  step 2: inventorying Astro Bot modules, imports, and game resources.
+- Earlier Vulkan, graphics, and import-execution progress was made in the
+  modified SharpEmu path and should not be presented as standalone recompiler
+  progress.
 
-The successful Dreaming Sarah test validates part of the chosen approach. It
-does not mean that Astro Bot is currently bootable or playable.
+No game has been launched by the standalone recompiler yet. The successful
+Dreaming Sarah run is an emulator reference result, not a completed
+recompiler test.
 
 ## Project Goal
 
@@ -58,14 +63,16 @@ memory management, threading, file system, graphics, audio, and input support.
 
 ## Roadmap
 
-1. Preserve Dreaming Sarah as a permanent regression test.
-2. Complete the Astro Bot module, import, and resource inventory.
-3. Reach stable graphics subsystem initialization.
-4. Render the first real frame produced by game code.
-5. Implement menu, input, and audio functionality.
-6. Load the first playable level.
-7. Add user settings, save data, and mod support.
-8. Consider an Android ARM64 backend after the Windows version is stable.
+1. Preserve the modified SharpEmu Dreaming Sarah run as a reference trace.
+2. **Inventory Astro Bot modules, imports, and game resources (in progress).**
+3. Generate the first minimal native recompiler output.
+4. Reach the guest entry point and the first HLE call from generated code.
+5. Reach stable graphics subsystem initialization.
+6. Render the first real frame produced by game code.
+7. Implement menu, input, and audio functionality.
+8. Load the first playable level.
+9. Add user settings, save data, and mod support.
+10. Consider an Android ARM64 backend after the Windows version is stable.
 
 ## Repository State
 
