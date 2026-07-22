@@ -72,7 +72,6 @@ memory management, threading, file system, graphics, audio, and input support.
 7. Implement menu, input, and audio functionality.
 8. Load the first playable level.
 9. Add user settings, save data, and mod support.
-10. Consider an Android ARM64 backend after the Windows version is stable.
 
 ## Repository State
 
